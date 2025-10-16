@@ -6,7 +6,7 @@
 header{
     background-color: rgb(0, 0, 0);
     height: 25vh;
-    overflow: hidden;
+   
     
 }
 header video{
@@ -16,9 +16,11 @@ header video{
 }
 main{
     
+    min-width: 100vw;
     height: 75vh;
     background-image: linear-gradient(to bottom, #ff01bb,white,rgb(2, 116, 174));
     position: relative;
+    z-index: 2;
 }
 .nomeIdade{
     text-align: center;
@@ -38,4 +40,18 @@ main{
     left: 50%;
     transform: translate(-50%);
     background-color: blueviolet;
+}
+
+.ilha{
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.stitchi-angel{
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
 }
