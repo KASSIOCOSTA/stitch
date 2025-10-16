@@ -9,7 +9,7 @@ body{
 header{
     
     position: relative;
-    background-color: rgb(0, 0, 0);
+    background-color: #ff01bb;
     height: 25vh;
    
     
@@ -93,23 +93,23 @@ main{
     position: absolute;
     width: 100px;
     top: 40px;
-    animation: passar2 10s linear infinite;
+    animation: passar2 12s linear infinite;
 }
 .nuvem2{
     position: absolute;
     width: 150px;
     top: 150px;
-    animation: passar1 10s linear infinite;
+    animation: passar1 17s linear infinite;
 }
 .nuvem3{
     position: absolute;
     width: 60px;
     top: 100px;
-    animation: passar3 10s linear infinite;
+    animation: passar3 15s linear infinite;
 }
 @keyframes passar1 {
     0%{
-        left: -40%;
+        left: -50%;
     }
     100%{
         left: 100%;
@@ -117,7 +117,7 @@ main{
 }
 @keyframes passar2 {
     0%{
-        left: 0;
+        left: -40%;
     }
     100%{
         left: 100%;
@@ -125,7 +125,7 @@ main{
 }
 @keyframes passar3 {
     0%{
-        left: -60%;
+        left: -70%;
     }
     100%{
         left: 100%;
