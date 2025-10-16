@@ -200,3 +200,46 @@ main{
         left: 100%;
     }
 }
+
+
+.botoes{
+
+    position: absolute;
+    z-index: 9;
+    background-color: #75757578;
+    border-radius: 15px;
+    right: 2%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    animation: botes 5s linear;
+    
+}
+.botoes a{
+    display: block;
+    background-color: #92a105;
+    color: white;
+    margin: 15px 10px;
+    font-size: 1.2em;
+    padding: 2px;
+    border-radius: 0 0 0 0;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    animation: botao 4s linear infinite;
+}
+@keyframes botoes{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes botao{
+    0%,100%{
+        transform: scale(1.07);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
