@@ -72,12 +72,14 @@ main{
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
+    z-index: 2;
 
 }
 .stitchi-angel{
     position: absolute;
     bottom: 20px;
     width: 200px;
+    z-index: 2;
 }
 .bolo{
     position: absolute;
@@ -85,4 +87,47 @@ main{
     width: 100px;
     left: 50%;
     transform: translate(-50%);
+    z-index: 2;
+}
+.nuvem1{
+    position: absolute;
+    width: 100px;
+    top: 40px;
+    animation: passar2 10s linear infinite;
+}
+.nuvem2{
+    position: absolute;
+    width: 150px;
+    top: 150px;
+    animation: passar1 10s linear infinite;
+}
+.nuvem3{
+    position: absolute;
+    width: 60px;
+    top: 100px;
+    animation: passar3 10s linear infinite;
+}
+@keyframes passar1 {
+    0%{
+        left: -40%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes passar2 {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
+    }
+}
+@keyframes passar3 {
+    0%{
+        left: -60%;
+    }
+    100%{
+        left: 100%;
+    }
 }
