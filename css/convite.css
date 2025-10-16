@@ -15,6 +15,7 @@ header video{
     display: block;
 }
 main{
-    height: 80vh;
-    background-color: brown;
+    height: 75vh;
+    background-image: linear-gradient(to bottom, #ff01bb,white,rgb(2, 116, 174));
+    position: relative;
 }
