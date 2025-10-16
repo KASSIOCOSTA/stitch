@@ -17,6 +17,7 @@ header video{
     display: block;
 }
 main{
+    overflow: hidden;
     height: 70vh;
     background-image: linear-gradient(to bottom, #ff01bb,white,rgb(2, 116, 174));
     position: relative;
@@ -52,6 +53,13 @@ main{
 }
 .stitchi-angel{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     width: 200px;
+}
+.bolo{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%);
 }
