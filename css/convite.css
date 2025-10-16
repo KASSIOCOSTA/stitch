@@ -3,34 +3,38 @@
     padding: 0;
 }
 body{
-    background-color: rgb(2, 117, 179);
+    /*#0275b3*/
+    background-color: black;
 }
 header{
+    
+    position: relative;
     background-color: rgb(0, 0, 0);
     height: 25vh;
    
     
 }
 header video{
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     display: block;
 }
 main{
+    
     overflow: hidden;
     height: 70vh;
     background-image: linear-gradient(to bottom, #ff01bb,white,rgb(2, 116, 174));
     position: relative;
-    z-index: 2;
 }
 .nomeIdade{
     text-align: center;
     position: absolute;
     background-color: blue;
     width: 70vw;
-    top: -20px;
+    top:100% ;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%,-50%);
     z-index: 3;
     padding: 5px;
 
