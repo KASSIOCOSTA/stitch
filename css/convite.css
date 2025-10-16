@@ -4,8 +4,15 @@
 }
 
 header{
-    background-color: aquamarine;
-    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    height: 25vh;
+    overflow: hidden;
+    
+}
+header video{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 main{
     height: 80vh;
