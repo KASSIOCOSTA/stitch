@@ -287,3 +287,15 @@ main{
     }
 }
 
+.compra{
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 4em;
+    position: absolute;
+    background-color: rgba(43, 226, 46, 0.753);
+    z-index: 9;
+    padding: 10px;
+    border-radius: 10px;
+
+}
