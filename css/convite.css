@@ -42,12 +42,22 @@ header video{
     border-radius: 40px 0 40px 0;
     box-shadow: 6px 6px 10px black;
     font-family: 'stitch';
+    text-shadow: 
+    1px 1px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
 
 }
 .nomeIdade h1{
     font-weight: normal;
     color: #ffffff;
     text-shadow: 0 0 2px #000000;
+    text-shadow: 
+    1px 1px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
 }
 .nomeIdade p{
     display: flex;
@@ -211,7 +221,7 @@ main{
     right: 2%;
     top: 50%;
     transform: translate(0%, -50%);
-    animation: botes 5s linear;
+    animation: botoes 5s linear;
     
 }
 .botoes a{
@@ -226,6 +236,7 @@ main{
     border-radius: 10px;
     text-align: center;
     animation: botao 4s linear infinite;
+    border: 1px solid black;
 }
 @keyframes botoes{
     0%{
@@ -243,3 +254,35 @@ main{
         transform: scale(1);
     }
 }
+
+.dia{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    top: 20%;
+    font-size: 1.6em;
+    font-family: 'stitch',Arial, Helvetica, sans-serif;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    left: 30px;
+    gap: 5px;
+    z-index: 9;
+    color: white;
+    text-shadow: 
+    1px 1px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
+    animation: dia 4s linear;
+}
+@keyframes dia{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 30px;
+    }
+}
+
