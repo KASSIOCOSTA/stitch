@@ -71,7 +71,7 @@ main{
     position: absolute;
     width: 120px;
     bottom: 0;
-    animation: barco1 20s linear infinite;
+    animation: barco1 15s linear infinite;
 }
 @keyframes barco1{
     0%{
